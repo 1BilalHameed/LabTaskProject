@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/userindividual"
+            android:layout_gravity="center"
+            android:id="@+id/userimage1"
+            android:layout_margin="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ellipsis"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Bilal Hameed"
+            android:layout_toRightOf="@+id/userimage1"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Just Now"
+            android:layout_toRightOf="@+id/userimage1"
+            android:layout_marginTop="60dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Follow the link for location"
+            android:id="@+id/txt1"
+            android:layout_below="@id/userimage1"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@id/txt1"
+            android:text="https://www.google.com/maps"
+            android:textColor="#74bffc"
+            android:layout_marginTop="10dp"
+            android:id="@+id/googleLink"
+            android:textSize="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/timeLineImage2"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_below="@+id/googleLink"
+            android:src="@drawable/seminarfree"
+            android:layout_height="200dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/thumb1"
+            android:src="@drawable/like"
+            android:layout_marginStart="30dp"
+            android:layout_below="@+id/timeLineImage2"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@+id/timeLineImage2"
+            android:layout_toRightOf="@+id/thumb1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="3 Comments"
+            android:layout_below="@+id/timeLineImage2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#c9c4c4"
+            android:id="@+id/view1"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/thumb1"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/likeicon"
+            android:layout_below="@+id/view1"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Like"
+            android:layout_marginStart="50dp"
+            android:textSize="20sp"
+            android:layout_below="@id/view1"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/commenticon"
+            android:layout_below="@+id/view1"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="140dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Comment"
+            android:layout_marginStart="170dp"
+            android:textSize="20sp"
+            android:layout_below="@id/view1"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/shareiconfb"
+            android:layout_below="@+id/view1"
+            android:id="@+id/shareicon2"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="310dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Share"
+            android:id="@+id/shareTxt"
+            android:layout_marginStart="340dp"
+            android:textSize="20sp"
+            android:layout_below="@id/view1"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#c9c4c4"
+            android:layout_below="@id/shareicon2"
+            android:layout_marginTop="20dp"
+            android:layout_height="1dp"/>
+
+
+
+</RelativeLayout>

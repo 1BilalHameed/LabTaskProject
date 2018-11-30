@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#31baf1"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/userChangeProfile"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profileimageman"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="100dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="User to Text Here"
+            android:enabled="false"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textColor="#f8f9fa"
+        android:id="@+id/txtUserProfile"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/edit"
+            android:layout_marginTop="10dp"
+            android:id="@+id/editIcon"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/txtUserProfile"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Available"
+        android:textColor="#f8f9fa"
+        android:layout_marginTop="5sp"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="#fcfbfb"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="100"
+            android:textSize="15sp"
+            android:textColor="#31baf1"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="200"
+            android:textColor="#31baf1"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="500"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="#31baf1"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#fcfbfb"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Followers"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="#31baf1"
+            android:layout_gravity="center_horizontal"
+           android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Friends"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="#31baf1"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="#31baf1"
+            android:layout_weight="1"
+            android:text="Followers"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fcfbfb"
+        android:layout_margin="20sp"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Email"
+            android:textColor="#31baf1"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="BilalHameed0800@gmail.com"
+            android:id="@+id/txtEmail"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Mobile"
+            android:textColor="#31baf1"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="0324-2426724"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="UserName"
+            android:textColor="#31baf1"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/txtuserName"
+            android:layout_marginTop="20dp"
+            android:text="Bilal Hameed"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

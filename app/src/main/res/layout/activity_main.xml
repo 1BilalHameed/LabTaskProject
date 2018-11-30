@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e6e5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/softloginicon"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Sing Up"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0e70c6"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtxt1"
+        android:hint="UserName"
+        android:drawablePadding="5sp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/loginnew"
+        android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/edtxt2"
+                android:hint="Email"
+                android:drawablePadding="5sp"
+                android:layout_margin="10dp"
+                android:layout_weight="10"
+                android:drawableLeft="@drawable/envelope"
+                android:layout_height="wrap_content" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/edtxt3"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="5dp"
+                android:hint="Password"
+                android:inputType="numberPassword"
+                android:drawableLeft="@drawable/locknew"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:text="i agree to terms and services"
+        android:textSize="18sp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnLogin"
+        android:layout_margin="20dp"
+        android:text="Login"
+        android:textColor="#f4f1f1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#4ca44c"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

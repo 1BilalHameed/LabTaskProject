@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:src="@drawable/profileimageman"
+        android:layout_height="70dp" />
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/userStatusEd"
+        android:hint="Whats on your mind"
+        android:focusable="false"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/gallery"
+        android:id="@+id/imgGallary"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/my_Image_View"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Share"
+        android:id="@+id/statusShareBtn"
+        android:layout_marginStart="10dp"
+        android:padding="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/myRecyclerView"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <include layout="@layout/items"></include>
+    <include layout="@layout/itemstwo"></include>
+    <include layout="@layout/items"></include>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
